@@ -1,6 +1,6 @@
 ## yarn-check, npm-check
 
-    -   options
+    - options
 
     -u, --update Interactive update.
     -y, --update-all Uninteractive update. Apply all updates without prompting.
