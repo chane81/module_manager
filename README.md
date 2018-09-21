@@ -1,4 +1,4 @@
-##yarn-check, npm-check
+## yarn-check, npm-check
   1. options
     - -u, --update          Interactive update.
     - -y, --update-all      Uninteractive update. Apply all updates without prompting.
