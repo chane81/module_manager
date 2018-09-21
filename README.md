@@ -8,7 +8,7 @@
     -p, --production      Skip devDependencies.
     -d, --dev-only        Look at devDependencies only (skip dependencies).
     -i, --ignore          Ignore dependencies based on succeeding glob.
-    -, --save-exact      Save exact version (x.y.z) instead of caret (^x.y.z) in package.json.
+    -e, --save-exact      Save exact version (x.y.z) instead of caret (^x.y.z) in package.json.
     
   2. ex)
   
