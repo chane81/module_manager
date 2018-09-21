@@ -1,15 +1,15 @@
 ## yarn-check, npm-check
 
--   options
+# options
 
     -   -u, --update Interactive update.
-        -y, --update-all Uninteractive update. Apply all updates without prompting.
-        -g, --global Look at global modules.
-        -s, --skip-unused Skip check for unused packages.
-        -p, --production Skip devDependencies.
-        -d, --dev-only Look at devDependencies only (skip dependencies).
-        -i, --ignore Ignore dependencies based on succeeding glob.
-        -e, --save-exact Save exact version (x.y.z) instead of caret (^x.y.z) in package.json.
+    -   -y, --update-all Uninteractive update. Apply all updates without prompting.
+    -   -g, --global Look at global modules.
+    -   -s, --skip-unused Skip check for unused packages.
+    -   -p, --production Skip devDependencies.
+    -   -d, --dev-only Look at devDependencies only (skip dependencies).
+    -   -i, --ignore Ignore dependencies based on succeeding glob.
+    -   -e, --save-exact Save exact version (x.y.z) instead of caret (^x.y.z) in package.json.
 
 -   ex)
 
