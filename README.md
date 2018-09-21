@@ -1,6 +1,7 @@
 ## yarn-check, npm-check
 
-    ## options
+    - options
+    ##
 
     -u, --update Interactive update.
     -y, --update-all Uninteractive update. Apply all updates without prompting.
@@ -11,7 +12,8 @@
     -i, --ignore Ignore dependencies based on succeeding glob.
     -e, --save-exact Save exact version (x.y.z) instead of caret (^x.y.z) in package.json.
 
--   ex)
+    - ex)
+    ##
 
     npm-check
     npm-check -u
