@@ -17,25 +17,27 @@
     npm-check -gu
   
 ## yarn
-  ###. 설치된 모듈 리스트
+  1. 설치된 모듈 리스트
+  
     ㄱ. global 모듈 리스트
     
-        ## yarn global list
+        yarn global list
         
-## ㄴ. 현재 프로젝트 모듈
+    ㄴ. 현재 프로젝트 모듈
   
-    yarn list --depth=0
+        yarn list --depth=0
   
   
 ## npm
   1. 설치된 모듈 리스트
   
-    - global 모듈 리스트
-      npm list -g --depth=0
+    ㄱ. global 모듈 리스트
+    
+        npm list -g --depth=0
 
-  2. 현재 프로젝트 모듈
+    ㄴ. 현재 프로젝트 모듈
   
-    npm list --depth=0
+        npm list --depth=0
   
   
    
