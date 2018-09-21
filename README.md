@@ -1,7 +1,7 @@
 ## yarn-check, npm-check
   1. options
-    - -u, --update          Interactive update.
-    - -y, --update-all      Uninteractive update. Apply all updates without prompting.
+    # -u, --update          Interactive update.
+    # -y, --update-all      Uninteractive update. Apply all updates without prompting.
     - -g, --global          Look at global modules.
     - -s, --skip-unused     Skip check for unused packages.
     - -p, --production      Skip devDependencies.
