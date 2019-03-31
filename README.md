@@ -75,9 +75,16 @@
 
 	`Windows: %LOCALAPPDATA%/Yarn/config/global`
 
-- 환경 변수 설정
-
-	`설정을 확인한 뒤 prefix 경로를 PATH에 추가해주면 된다.`
-
+- config 리스트
 	>$ yarn config list
-	{ prefix: 'C:\\Users\\{NAME}\\npm' }
+
+- `yarn-check` 시 경로를 찾을 수 없다고 나올 때
+    - yarn-check -g
+    - 아래와 같은 메시지 나옴
+        ```
+        Path "C:\Users\chane\AppData\Local\npm" does not exist. Please check the NODE_PATH environment variable.
+        For more detail, add `--debug` to the command
+        ```
+
+    - 실제 global 모듈 경로로 수정
+        > set NODE_PATH=C:\Users\chane\AppData\Local\Yarn\Data\global\node_modules
